@@ -3,6 +3,15 @@ FoodFlip
 by Ariella Levine (levjam), Louis Petro (petrol), and Elijah Valenciano (elijahv)
 ========
 
+flow diagram
+This is located in the root directory under "general_flow.jpg"
+
+mockups
+All mockups are in the "/mockups" directory
+
+raw data
+The raw data is in the "/data" directory
+
 fake_data.csv
 This file contains examples of what FoodFlip data will look like. Users submit questions about food recipes and other users submit answers/comments to each of the questions with their suggestions.
 
@@ -23,3 +32,7 @@ Answer#_Username is required.
 Answer#_Time is required. 
 Answer#_Upvotes starts at 0 and increases as other users upvote the answer. The number cannot be less than 0.
 Answer#_Downvotes starts at 0 and increases as other users downvote the answer. The number cannot be less than 0.
+
+QC and Aggregation
+
+Sample input and output are included in the face data csv, and the code for it is handled by Wordpress.
