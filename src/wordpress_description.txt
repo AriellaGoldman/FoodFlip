@@ -1,0 +1,4 @@
+We're using WordPress to implement FoodFlip.org.
+The quality control and aggregation happens in WordPress and we're not 
+writing any code for it ourselves.
+
