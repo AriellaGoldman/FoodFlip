@@ -1,0 +1,1 @@
+FoodFlip does not utilize raw data. We crowdsource the questions as well as the answers.
