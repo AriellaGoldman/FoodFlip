@@ -12,7 +12,7 @@ Question	Question_Asker_Username	Question_Time	Question_Categories	Question_Food
 The Question is required and unique. The Queston can include the recipe and all comments or thoughts the Asker might have about the Question. 
 The Question_Asker_Username is required (and not unique).
 The Question_Time is required (and not unique). 
-The Question_Categories is required and can include one or many of the following options: Baking, Roasting, Cooking, Barbeque, Sauteing, or Other. 
+The Question_Categories is required and can include one of the following options: Baking, Roasting, Cooking, Barbeque, Sauteing, or Other. 
 The Question_Food_Restriction is not required and can include one or many of the following options: Peanut_Allergy, Gluten_Free, Lactose_Intolerant, Nut_Allergy, Kosher, Vegetarian, Vegan, Diabetic. If no option is selected, "None" is defaulted.
 The Answer_Asker_Selected is not required. The answer can be "1", "2", "3", and so on, and mnust refer to one of the possible answers given to the question. "None" is defaulted if no Answer is selected. When the Asker posts the question, he cannot submit an Answer Asker Selected because there are no answers to select. He can only select an answer once at least one answer is submitted to his/her question.
 
