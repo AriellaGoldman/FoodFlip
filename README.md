@@ -35,5 +35,5 @@ Answer#_Downvotes starts at 0 and increases as other users downvote the answer. 
 
 QC and Aggregation
 
-Sample input and output are included in the fake data csv, and the code for it is handled by Wordpress.
+Sample input and output are included in the fake data csv, and the code for it is handled by Wordpress. Note that we are not handing in separate deliverables for sample input/output for QC and sample input/output for aggregation because Wordpress takes care of the things for us. 
 This is done using the DW Question and Answer plugin which allows submitting questions and answers
