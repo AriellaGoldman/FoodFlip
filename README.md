@@ -3,14 +3,32 @@ FoodFlip
 by Ariella Levine (levjam), Louis Petro (petrol), and Elijah Valenciano (elijahv)
 ========
 directory structure:
-root has two files in it and three directories. The two files are README.md and general_flow.jpg. The three directories are data, mockups, and src.
-data has two files in it: fake_data.xlsx and raw_data.txt
+root has four files in it and four directories. The two files are README.md general_flow.jpg demo-writeup.docx and demo-writeup.pdf. 
+The four directories are data, screenshots_and_images, mockups, and src.
+data has four files in it: QuestionsCategories.html QuestionTags.html fake_data.xlsx and raw_data.txt
 mockups has three files in it: FoodFlipWebsite.jpg, Question_format.jpg, and Questions_search.png
 src has one file in it: wordpress_description.txt
+screenshots_and_images has ten files in it with various obviously-labelled screenshots.
 
 
 flow diagram
 This is located in the root directory under "general_flow.jpg". The flow diagram describes the general conceptual flow of our project.
+
+QuestionCategories.html
+This is the Google Visualization Diagram of the categories of questions
+
+QuestionTags.html
+This is the Google Visualization Diagram for the tags associated with the questions
+
+raw data
+The raw data is in the "/data" directory. Food Flip doesn't utilize raw_data, so it's a really small file. 
+
+screenshots_and_images/
+This directory includes all of the screenshots and images for the project including the header, logo and crowd facing user interface.
+It has screenshots from the data page, groups page, homepage and submissions/questions page.
+
+src/
+The source folder talks about the details of Wordpress and how we created and structured our website
 
 mockups
 All mockups are in the "/mockups" directory. This includes conceptual screenshots and real screenshots of the current website. 
@@ -36,22 +54,6 @@ Answer# is required and can include text, pictures, links, or stories.
 Answer#_Username is required. 
 Answer#_Time is required. 
 Answer#_Votes starts at 0 and increases or decreases and users vote up or down per answer.
-
-QuestionCategories.html
-This is the Google Visualization Diagram of the categories of questions
-
-QuestionTags.html
-This is the Google Visualization Diagram for the tags associated with the questions
-
-raw data
-The raw data is in the "/data" directory. Food Flip doesn't utilize raw_data, so it's a really small file. 
-
-screenshots_and_images/
-This directory includes all of the screenshots and images for the project including the header, logo and crowd facing user interface.
-It has screenshots from the data page, groups page, homepage and submissions/questions page.
-
-src/
-The source folder talks about the details of Wordpress and how we created and structured our website
 
 QC and Aggregation
 
