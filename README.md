@@ -16,24 +16,8 @@ mockups
 All mockups are in the "/mockups" directory. This includes conceptual screenshots and real screenshots of the current website. 
 Question_format.jpg and Questions_search.png are screenshots of the current working website. FoodFlipWebsite.jpg is a mockup of what we think we want the homescreen to look like. 
 
-QuestionCategories.html
-This is the Google Visualization Diagram of the categories of questions
-
-QuestionTags.html
-This is the Google Visualization Diagram for the tags associated with the questions
-
-raw data
-The raw data is in the "/data" directory. Food Flip doesn't utilize raw_data, so it's a really small file. 
-
 fake_data.csv
 This file contains examples of what FoodFlip data will look like. Users submit questions about food recipes and other users submit answers/comments to each of the questions with their suggestions.
-
-screenshots_and_images/
-This directory includes all of the screenshots and images for the project including the header, logo and crowd facing user interface.
-It has screenshots from the data page, groups page, homepage and submissions/questions page.
-
-src/
-The source folder talks about the details of Wordpress and how we created and structured our website
 
 The file is ordered as such:
 
@@ -52,6 +36,22 @@ Answer# is required and can include text, pictures, links, or stories.
 Answer#_Username is required. 
 Answer#_Time is required. 
 Answer#_Votes starts at 0 and increases or decreases and users vote up or down per answer.
+
+QuestionCategories.html
+This is the Google Visualization Diagram of the categories of questions
+
+QuestionTags.html
+This is the Google Visualization Diagram for the tags associated with the questions
+
+raw data
+The raw data is in the "/data" directory. Food Flip doesn't utilize raw_data, so it's a really small file. 
+
+screenshots_and_images/
+This directory includes all of the screenshots and images for the project including the header, logo and crowd facing user interface.
+It has screenshots from the data page, groups page, homepage and submissions/questions page.
+
+src/
+The source folder talks about the details of Wordpress and how we created and structured our website
 
 QC and Aggregation
 
