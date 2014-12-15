@@ -16,16 +16,29 @@ mockups
 All mockups are in the "/mockups" directory. This includes conceptual screenshots and real screenshots of the current website. 
 Question_format.jpg and Questions_search.png are screenshots of the current working website. FoodFlipWebsite.jpg is a mockup of what we think we want the homescreen to look like. 
 
+QuestionCategories.html
+This is the Google Visualization Diagram of the categories of questions
+
+QuestionTags.html
+This is the Google Visualization Diagram for the tags associated with the questions
+
 raw data
 The raw data is in the "/data" directory. Food Flip doesn't utilize raw_data, so it's a really small file. 
 
 fake_data.csv
 This file contains examples of what FoodFlip data will look like. Users submit questions about food recipes and other users submit answers/comments to each of the questions with their suggestions.
 
+screenshots_and_images/
+This directory includes all of the screenshots and images for the project including the header, logo and crowd facing user interface.
+It has screenshots from the data page, groups page, homepage and submissions/questions page.
+
+src/
+The source folder talks about the details of Wordpress and how we created and structured our website
+
 The file is ordered as such:
 
 Question	Question_Asker_Username	Question_Time	Question_Categories	Question_Food_Restriction	Question_Votes	Answer_Asker_Selected	Answer1	Answer1_Username	Answer1_Time	Answer1_Upvotes	Answer2	Answer2_Username	Answer2_Time	Answer2_Votes	Answer3	Answer3_Username	Answer3_Time	Answer3_Votes
-The Question is required and unique. The Queston can include the recipe and all comments or thoughts the Asker might have about the Question. 
+The Question is required and unique. The Question can include the recipe and all comments or thoughts the Asker might have about the Question. 
 The Question_Asker_Username is required (and not unique).
 The Question_Time is required (and not unique). 
 The Question_Categories is required and can include one of the following options: Baking, Roasting, Cooking, Barbeque, Grilling, Sauteing, Dessert, or Other. 
@@ -47,5 +60,3 @@ This is done using the DW Question and Answer plugin which allows submitting que
 
 Thank you!
 We tried out best to take care of all of the deliverables that were relevant to our project...but we didn't really know what to do in the general case that "sorry, WordPress deals with all the things.''
-
-Also, thank you for the extension!
