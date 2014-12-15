@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+     google.load('visualization', '1', {'packages': ['corechart']});
+     google.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+	  ['Tag', 'Number of Questions'], 
+	  ['Almond Milk', 1],['Butter', 1], ['Chinese', 1], ['Coconut Milk', 1],
+	  ['Eggs', 1],['Fish', 1], ['Grilling', 1], ['Gross', 1], 
+	  ['Healthy Low Sugar', 1], ['Lactose Intolerant', 2], ['Margarine', 1],
+	  ['Milk', 6], ['Milk Allergy', 1], ['Milk Replacement', 1],
+	  ['Parboiling', 1], ['Soy Milk', 2], ['Steak', 1], ['Steaming', 1],
+	  ['Vegan', 2]
+	  ]);
+
+      var options = {
+        title: 'Tags of Questions',
+        vAxis: {title: 'Tag', titleTextStyle: {color: 'Green'}}
+      };
+
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    };
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>

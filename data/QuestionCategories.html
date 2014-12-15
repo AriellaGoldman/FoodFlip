@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+     google.load('visualization', '1', {'packages': ['corechart']});
+     google.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+	  ['Categories', 'Number of Questions'], 
+	  ['Baking', 10],['Barbeque', 1], ['Cooking', 2], ['Desserts', 1], 
+	  ['Grilling', 1], ['Other', 2], ['Roasting', 0], ['Sauteing', 0]
+	  ]);
+
+      var options = {
+        title: 'Categories of Questions',
+        vAxis: {title: 'Category', titleTextStyle: {color: 'red'}}
+      };
+
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    };
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
